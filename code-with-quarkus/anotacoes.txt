@@ -1,0 +1,4 @@
+
+
+comando para add extensões pelo git bash ou terminal
+// mvn quarkus:add-extension -Dextensions="quarkus-rest-client"
