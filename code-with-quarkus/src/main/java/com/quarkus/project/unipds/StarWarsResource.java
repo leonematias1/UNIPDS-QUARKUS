@@ -20,22 +20,22 @@ public class StarWarsResource {
 		return starWarsService.getFilms();
 	}
 	
-	@GET
-	@Path("/people")
-	public String getPeople() {
-		return starWarsService.getPeople();
-	}
-	
-	@GET
-	@Path("/vehicles")
-	public String getVehicles() {
-		return starWarsService.getVehicles();
-	}
-	
-	@GET
-	@Path("/starships")
-	public String getStarships() {
-		return starWarsService.getStarships();
-	}
+//	@GET
+//	@Path("/people")
+//	public String getPeople() {
+//		return starWarsService.getPeople();
+//	}
+//	
+//	@GET
+//	@Path("/vehicles")
+//	public String getVehicles() {
+//		return starWarsService.getVehicles();
+//	}
+//	
+//	@GET
+//	@Path("/starships")
+//	public String getStarships() {
+//		return starWarsService.getStarships();
+//	}
 	
 }

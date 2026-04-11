@@ -2,3 +2,6 @@
 
 comando para add extensões pelo git bash ou terminal
 // mvn quarkus:add-extension -Dextensions="quarkus-rest-client"
+
+subindo docker com jaeger
+docker run --name=jaeger -d -p 16686:16686 -p 4317:4317 -e COLLECTOR_OTLP_ENABLED=true jaegertracing/all-in-one:latest
